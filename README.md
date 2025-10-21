@@ -66,7 +66,7 @@ To write a Python program using **NumPy** that finds the indices where elements 
 5. **Print Indices**: Print the indices where the condition holds true.
 
 ## 🧾 Program
-
+~~~
 # Step 1: Import NumPy
 import numpy as np
 
@@ -86,7 +86,7 @@ indices = np.where(x >= y)
 
 # Step 5: Print the indices
 print("Indices where x >= y:", indices[0])
-
+~~~
 
 ## Output
 ![alt text](image-1.png)
